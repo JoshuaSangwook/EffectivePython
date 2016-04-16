@@ -20,7 +20,7 @@ for i in range(len(flavor_list)):
     print('%d: %s is delicivous' % (i+1, flavor))
 print()
 
-# enumerate 를 사용하면..
+# enumerate 를 사용하면 좀 더 단순해진다
 for i, flavor in enumerate(flavor_list, 1):
     print('%d: %s is delicivous' % (i, flavor))
 
