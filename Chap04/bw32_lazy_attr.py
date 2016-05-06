@@ -149,3 +149,6 @@ class DictionaryDB(object):
 
 data = DictionaryDB({'foo': 3})
 print(data.foo)
+
+
+
